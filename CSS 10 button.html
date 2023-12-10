@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudo selector & more designing</title>
+    <style>
+        .container {
+            border: 5px dotted rgb(216, 72, 72);
+            width: 700px;
+            padding: 35px;
+            margin: 20px auto;
+            background-color: aqua;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(14, 14, 15);
+        }
+
+        a:hover {
+            color: blanchedalmond;
+            background-color: rgb(31, 23, 23);
+        }
+
+        a:visited {
+            background-color: rgb(209, 27, 27);
+        }
+
+        a:active {
+            background-color: rgb(77, 26, 26);
+        }
+
+        .btn {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(247, 8, 8);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 10px;
+
+        }
+
+        .btn:hover {
+            color: blanchedalmond;
+            background-color: rgb(15, 15, 15);
+            border: 2px solid white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="first">
+        <h2>Seudo selector & more designing</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere deserunt omnis accusamus autem quos quod
+            asperiores commodi praesentium quis quas temporibus maxime laudantium impedit, quia numquam eaque voluptates
+            saepe itaque. Facere sapiente dolorum sequi illum libero praesentium quia.</p>
+        <a href="" class="btn">Read more</a>
+        <button class="btn">Read...</button>
+    </div>
+</body>
+
+</html>

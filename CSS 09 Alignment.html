@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(87, 112, 133);
+        }
+
+        .container {
+            background-color: coral;
+            width: 800px;
+            border: 5px solid black;
+            margin: 50px auto;
+            text-align: center;
+
+        }
+
+        .item {
+            border: 3px double rgb(144, 12, 221);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(27, 212, 89);
+            box-shadow:5px 4px rgb(22, 219, 111);
+            /* box-shadow: -5px -3px 2px black; */
+
+        }
+
+        #fruit {
+            float: left;
+            width: 50%;
+        }
+
+        #computer {
+            float: right;
+            width: 45%;
+            box-shadow: 4px 4x blure;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 97%;
+        }
+
+        p.h1 {
+            /* text-align: right ; */
+            /* text-align: left; */
+            /* text-align: center ; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 20px auto;
+            width: 190px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Well Come</h1>
+        <div id="fruit" class="item">
+            <h2>Fruits</h2>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium impedit
+                laborum ullam. Inventore ducimus odit nulla. Culpa quo hic ducimus iure error ratione ea cum dicta
+                libero. Debitis, eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut animi explicabo
+                facere voluptas quia cumque aliquid necessitatibus aliquam architecto! Facilis!
+                .</p>
+        </div>
+        <div id="computer" class="item">
+            <h2>Computer</h2>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
+                impedit laborum ullam. Inventore ducimus odit nulla. Culpa quo hic ducimus iure error ratione ea cum
+                dicta libero. Debitis, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel iusto, expedita
+                laborum accusantium commodi quos fugit eaque ipsum dolore reprehenderit?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h2>Stationary</h2>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
+                impedit laborum ullam. Inventore ducimus odit nulla. Culpa quo hic ducimus iure error ratione ea cum
+                dicta libero. Debitis, eveniet soluta.</p>
+        </div>
+    </div>
+</body>
+
+</html>
